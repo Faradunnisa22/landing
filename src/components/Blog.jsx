@@ -36,16 +36,7 @@ const Blog = () => {
                 }
             </div>
 
-            {/* <div>
-            {
-                blogs.map(blog => <div key ={blog.id} >
-                    <img src={blog.image} alt="" />
-                    <div>
-                        <h3>{blog.title}</h3>
-                    </div>
-                    </div>)
-            }
-        </div> */}
+         
         </div>
     )
 }
