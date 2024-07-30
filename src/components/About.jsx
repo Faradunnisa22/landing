@@ -1,9 +1,9 @@
 import React from 'react'
 import aboutImg from '../assets/about1.png'
-import member from '../assets/member.png'
-import clubs from '../assets/clubs.png'
-import payment from '../assets/payment.png'
-import event from '../assets/event.png'
+import member from './assets/member.png'
+import clubs from './assets/clubs.png'
+import payment from './assets/payment.png'
+import event from './assets/event.png'
 
 const About = () => {
     return (
