@@ -3,6 +3,14 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/landing/', // Ensure this matches your GitHub Pages repository name
+  base: '/landing/',
+  build:{
+    rollupoptions:{
+      output:{
+        assetFileNames:'assets/[name] - [hash][extname]'
+      }
+    }
+  } ,
+  assetsInclude:['**/*.png','**/*.jpg','**/*.svg']
 });
 
