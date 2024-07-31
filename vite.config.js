@@ -7,10 +7,11 @@ export default defineConfig({
   build:{
     rollupoptions:{
       output:{
+        outDir:'dist',
         assetFileNames:'assets/[name] - [hash][extname]'
       }
     }
   } ,
-  assetsInclude:['**/*.png','**/*.jpg','**/*.svg']
+  assetsInclude:['**/*.png','**/*.jpg',]
 });
 
